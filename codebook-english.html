@@ -1,0 +1,1007 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1671.1">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 16.1px 0.0px; line-height: 28.0px; font: 24.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #0000e3; -webkit-text-stroke: #0000e3}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 12.0px}
+    p.p5 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e3}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p7 {margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {text-decoration: underline ; font-kerning: none; color: #0000e9}
+    span.s3 {text-decoration: underline ; font-kerning: none; color: #0000e3}
+    span.s4 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s5 {text-decoration: underline ; font-kerning: none}
+    span.s6 {font: 12.0px Times; text-decoration: underline ; font-kerning: none; color: #0000e3; -webkit-text-stroke: 0px #0000e3}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1"><b>Variable Overview</b></span></p>
+<p class="p2"><span class="s1">If the list is to be printed out, SoSci Survey will gladly open the list for you in a new window and without a frame.</span></p>
+<p class="p2"><span class="s1">For a printable overview of the questions, use the proof of the corresponding questionnaire.</span></p>
+<p class="p3"><span class="s2"><a href="file:///Users/chrisvaccaro/Downloads/preview.php?questionnaire=qnr2">qnr2</a><a href="file:///Users/chrisvaccaro/Downloads/preview.php?questionnaire=sociodemographics"><span class="s3">sociodemographics</span></a></span><span class="s4"><span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">The variable overview lists all the variables used in the survey project. The questionnaire and thus also the variables are sorted by category, position of question and item.</span></p>
+<p class="p2"><span class="s1">The overview also shows the possible expressions in addition to the variables. Further information about the values can be found in the manual.</span></p>
+<p class="p5"><span class="s5"><a href="https://www.soscisurvey.de/help/doku.php/de:results:values">Coding and return values</a></span></p>
+<p class="p2"><span class="s1">Variables for which no values have previously been stored are greyed out. These variables are not actively used until a value is specified in at least one completed questionnaire.</span></p>
+<p class="p2"><span class="s1">The overview is displayed in the active language version.</span></p>
+<p class="p6"><span class="s1"><br>
+</span></p>
+<p class="p7"><span class="s1"><b>Questionnaire-internal data</b></span></p>
+<p class="p2"><span class="s1">The record contains the following additional variables in addition to your questions, unless you disable the option when downloading the record.</span></p>
+<p class="p2"><span class="s1"><b>CASE </b>Sequential number of the subject</span></p>
+<p class="p2"><span class="s1"><b>REF </b>reference, if such a link was added to the questionnaire</span></p>
+<p class="p2"><span class="s1"><b>LASTPAGE </b>Number of the page in the questionnaire that was last edited and sent</span></p>
+<p class="p2"><span class="s1"><b>QUESTNNR </b>ID of the questionnaire that has been edited</span></p>
+<p class="p2"><span class="s1"><b>MODE </b>Information, whether the questionnaire was started in the pretest or by a project member</span></p>
+<p class="p2"><span class="s1"><b>STARTED </b>Time at which the participant called the questionnaire</span></p>
+<p class="p2"><span class="s1"><b>FINISHED </b>Information on whether the questionnaire has been completed to the last page</span></p>
+<p class="p2"><span class="s1"><b>TIME_001 </b>... Time a participant spent on a questionnaire page</span></p>
+<p class="p2"><span class="s1">Please note that you can not read out the questionnaire-internal variables with the value () function. For the interview number and reference, however, the PHP functions PHP function caseNumber () and PHP function reference () are available.</span></p>
+<p class="p2"><span class="s1">Details about the additional variables are in the manual: <a href="https://www.soscisurvey.de/help/doku.php/de:results:variables"><span class="s6">Additional variables in the data output</span></a></span></p>
+<p class="p7"><span class="s1"><b>Section NO: Nootropics Taken</b></span></p>
+<p class="p2"><span class="s1">[NO01] Multiple Choice</span></p>
+<p class="p2"><span class="s1">Nootropics taken</span></p>
+<p class="p2"><span class="s1">"Which of these following nootropics have you already taken?"</span></p>
+<p class="p2"><span class="s1"><b>NO01</b> Nootropics taken: Residual option (negative) or number of selected options<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Integer</span></p>
+<p class="p2"><span class="s1"><b>NO01_01</b> L-Theanine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_02</b> Bacopa Monnieri<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_03</b> Caffeine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_04</b> Curcumin<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_05</b> Ashwagandha<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_06</b> Rhodiola rosea<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_07</b> St John's Wort<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_08</b> Kava<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_09</b> Methylphenidate<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_10</b> Adderall<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_11</b> L-Deprenyl<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_12</b> Tyrosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_13</b> N-Acetyl-L-Tyrosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_14</b> Creatine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_15</b> CDP-Choline<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_16</b> Alpha-GPC<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_17</b> Carnitine / Acetyl-L-Carnitine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_18</b> Omega-3 Supplements<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_19</b> Magnesium<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_20</b> Modafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_21</b> Armodafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_22</b> Adrafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_24</b> Piracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_25</b> Phenylpiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_26</b> Aniracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_27</b> Oxiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_28</b> Pramiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_29</b> Coluracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_30</b> Fasoracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_31</b> Nefiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_32</b> Noopept<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_33</b> Semax<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_34</b> Selank<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_35</b> Doepezil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_36</b> Huperzine A<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_37</b> Ampalex<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_38</b> Tianetpine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_39</b> NSI-189<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_40</b> Melatonin<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_41</b> GABA<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_42</b> 5-HTP<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_43</b> Black Seed Oil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_44</b> Ginseng<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_45</b> Ginkgo biloba<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_46</b> Nicotine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_47</b> Sulbutiamine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_48</b> Uridine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_49</b> Sarcosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_50</b> Sunifiram<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_51</b> BPC-157<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_52</b> Boswellia<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_54</b> Guanfacine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_55</b> DMHA<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_56</b> LSD Microdose<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_57</b> CBD Oil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_58</b> PRL-8-53<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_59</b> Agmatine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_60</b> Selegiline<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_61</b> Phenibut<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_62</b> Lion's Mane<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NO01_63</b> Methylene blue<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">1 = Not checked<br>
+2 = Checked</span></p>
+<p class="p7"><span class="s1"><b>Section NR: Nootropics Rating</b></span></p>
+<p class="p2"><span class="s1">[NR01] Scale (fully labeled)</span></p>
+<p class="p2"><span class="s1">Nootropics Satisfaction</span></p>
+<p class="p2"><span class="s1">"People can have pleasant or unpleasant experiences with their nootropics."</span></p>
+<p class="p2"><span class="s1"><b>NR01_01</b> L-Theanine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_02</b> Bacopa Monnieri<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_03</b> Caffeine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_04</b> Curcumin<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_05</b> Ashwagandha<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_06</b> Rhodiola rosea<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_07</b> St John's Wort<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_08</b> Kava<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_09</b> Methylphenidate<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_10</b> Adderall<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_11</b> L-Deprenyl<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_12</b> Tyrosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_13</b> N-Acetyl-L-Tyrosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_14</b> Creatine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_15</b> CDP-Choline<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_16</b> Alpha-GPC<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_17</b> Carnitine / Acetyl-L-Carnitine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_18</b> Omega-3 Supplements<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_19</b> Magnesium<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_20</b> Modafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_21</b> Armodafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_22</b> Adrafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_24</b> Piracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_25</b> Phenylpiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_26</b> Aniracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_27</b> Oxiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_28</b> Pramiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_29</b> Coluracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_30</b> Fasoracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_31</b> Nefiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_32</b> Noopept<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_33</b> Semax<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_34</b> Selank<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_35</b> Doepezil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_36</b> Huperzine A<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_37</b> Ampalex<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_38</b> Tianetpine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_39</b> NSI-189<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_40</b> Melatonin<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_41</b> GABA<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_42</b> 5-HTP<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_43</b> Black Seed Oil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_44</b> Ginseng<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_45</b> Ginkgo biloba<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_46</b> Nicotine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_47</b> Sulbutiamine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_48</b> Uridine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_49</b> Sarcosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_50</b> Sunifiram<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_51</b> BPC-157<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_52</b> Boswellia<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_54</b> Guanfacine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_55</b> DMHA<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_56</b> LSD Microdose<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_57</b> CBD Oil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_58</b> PRL-8-53<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_59</b> Agmatine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_60</b> Selegiline / Deprenyl<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_61</b> Phenibut<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_62</b> Lion's Mane<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR01_63</b> Methylene blue<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">1 = Very unpleasant<br>
+2 = Moderately unpleasant<br>
+3 = Slightly unpleasant<br>
+4 = Neutral<br>
+5 = Slightly pleasant<br>
+6 = Moderately pleasant<br>
+7 = Very pleasant<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1">[NR02] Scale (fully labeled)</span></p>
+<p class="p2"><span class="s1">Nootropics Focus</span></p>
+<p class="p2"><span class="s1">"Some nootropics are used to improve focus. They are meant to help with concentration and to reduce "brain fog"."</span></p>
+<p class="p2"><span class="s1"><b>NR02_01</b> L-Theanine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_02</b> Bacopa Monnieri<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_03</b> Caffeine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_04</b> Curcumin<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_05</b> Ashwagandha<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_06</b> Rhodiola rosea<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_07</b> St John's Wort<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_08</b> Kava<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_09</b> Methylphenidate<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_10</b> Adderall<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_11</b> L-Deprenyl<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_12</b> Tyrosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_13</b> N-Acetyl-L-Tyrosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_14</b> Creatine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_15</b> CDP-Choline<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_16</b> Alpha-GPC<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_17</b> Carnitine / Acetyl-L-Carnitine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_18</b> Omega-3 Supplements<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_19</b> Magnesium<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_20</b> Modafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_21</b> Armodafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_22</b> Adrafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_24</b> Piracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_25</b> Phenylpiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_26</b> Aniracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_27</b> Oxiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_28</b> Pramiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_29</b> Coluracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_30</b> Fasoracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_31</b> Nefiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_32</b> Noopept<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_33</b> Semax<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_34</b> Selank<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_35</b> Doepezil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_36</b> Huperzine A<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_37</b> Ampalex<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_38</b> Tianetpine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_39</b> NSI-189<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_40</b> Melatonin<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_41</b> GABA<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_42</b> 5-HTP<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_43</b> Black Seed Oil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_44</b> Ginseng<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_45</b> Ginkgo biloba<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_46</b> Nicotine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_47</b> Sulbutiamine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_48</b> Uridine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_49</b> Sarcosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_50</b> Sunifiram<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_51</b> BPC-157<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_52</b> Boswellia<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_54</b> Guanfacine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_55</b> DMHA<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_56</b> LSD Microdose<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_57</b> CBD Oil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_58</b> PRL-8-53<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_59</b> Agmatine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_60</b> Selegiline / Deprenyl<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_61</b> Phenibut<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_62</b> Lion's Mane<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR02_63</b> Methylene blue<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">1 = Strong decrease<br>
+2 = Moderate decrease<br>
+3 = Slight decrease<br>
+4 = No effect<br>
+5 = Slight increase<br>
+6 = Moderate increase<br>
+7 = Strong increase<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1">[NR03] Scale (fully labeled)</span></p>
+<p class="p2"><span class="s1">Nootropics Memory</span></p>
+<p class="p2"><span class="s1">"Some nootropics are used to improve memory. They are meant to help people remember things more easily and to..."</span></p>
+<p class="p2"><span class="s1"><b>NR03_01</b> L-Theanine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_02</b> Bacopa Monnieri<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_03</b> Caffeine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_04</b> Curcumin<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_05</b> Ashwagandha<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_06</b> Rhodiola rosea<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_07</b> St John's Wort<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_08</b> Kava<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_09</b> Methylphenidate<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_10</b> Adderall<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_11</b> L-Deprenyl<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_12</b> Tyrosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_13</b> N-Acetyl-L-Tyrosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_14</b> Creatine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_15</b> CDP-Choline<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_16</b> Alpha-GPC<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_17</b> Carnitine / Acetyl-L-Carnitine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_18</b> Omega-3 Supplements<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_19</b> Magnesium<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_20</b> Modafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_21</b> Armodafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_22</b> Adrafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_24</b> Piracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_25</b> Phenylpiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_26</b> Aniracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_27</b> Oxiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_28</b> Pramiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_29</b> Coluracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_30</b> Fasoracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_31</b> Nefiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_32</b> Noopept<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_33</b> Semax<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_34</b> Selank<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_35</b> Doepezil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_36</b> Huperzine A<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_37</b> Ampalex<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_38</b> Tianetpine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_39</b> NSI-189<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_40</b> Melatonin<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_41</b> GABA<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_42</b> 5-HTP<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_43</b> Black Seed Oil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_44</b> Ginseng<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_45</b> Ginkgo biloba<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_46</b> Nicotine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_47</b> Sulbutiamine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_48</b> Uridine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_49</b> Sarcosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_50</b> Sunifiram<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_51</b> BPC-157<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_52</b> Boswellia<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_54</b> Guanfacine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_55</b> DMHA<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_56</b> LSD Microdose<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_57</b> CBD Oil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_58</b> PRL-8-53<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_59</b> Agmatine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_60</b> Selegiline / Deprenyl<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_61</b> Phenibut<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_62</b> Lion's Mane<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR03_63</b> Methylene blue<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">1 = Strong decrease<br>
+2 = Moderate decrease<br>
+3 = Slight decrease<br>
+4 = No effect<br>
+5 = Slight increase<br>
+6 = Moderate increase<br>
+7 = Strong increase<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1">[NR04] Scale (fully labeled)</span></p>
+<p class="p2"><span class="s1">Nootropics Mood</span></p>
+<p class="p2"><span class="s1">"Some nootropics are used to improve mood. They are taken to reduce negative feelings and to promote happiness."</span></p>
+<p class="p2"><span class="s1"><b>NR04_01</b> L-Theanine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_02</b> Bacopa Monnieri<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_03</b> Caffeine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_04</b> Curcumin<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_05</b> Ashwagandha<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_06</b> Rhodiola rosea<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_07</b> St John's Wort<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_08</b> Kava<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_09</b> Methylphenidate<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_10</b> Adderall<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_11</b> L-Deprenyl<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_12</b> Tyrosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_13</b> N-Acetyl-L-Tyrosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_14</b> Creatine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_15</b> CDP-Choline<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_16</b> Alpha-GPC<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_17</b> Carnitine / Acetyl-L-Carnitine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_18</b> Omega-3 Supplements<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_19</b> Magnesium<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_20</b> Modafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_21</b> Armodafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_22</b> Adrafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_24</b> Piracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_25</b> Phenylpiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_26</b> Aniracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_27</b> Oxiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_28</b> Pramiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_29</b> Coluracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_30</b> Fasoracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_31</b> Nefiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_32</b> Noopept<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_33</b> Semax<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_34</b> Selank<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_35</b> Doepezil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_36</b> Huperzine A<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_37</b> Ampalex<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_38</b> Tianetpine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_39</b> NSI-189<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_40</b> Melatonin<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_41</b> GABA<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_42</b> 5-HTP<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_43</b> Black Seed Oil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_44</b> Ginseng<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_45</b> Ginkgo biloba<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_46</b> Nicotine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_47</b> Sulbutiamine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_48</b> Uridine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_49</b> Sarcosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_50</b> Sunifiram<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_51</b> BPC-157<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_52</b> Boswellia<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_54</b> Guanfacine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_55</b> DMHA<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_56</b> LSD Microdose<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_57</b> CBD Oil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_58</b> PRL-8-53<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_59</b> Agmatine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_60</b> Selegiline / Deprenyl<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_61</b> Phenibut<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_62</b> Lion's Mane<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR04_63</b> Methylene blue<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">1 = Strong decrease<br>
+2 = Moderate decrease<br>
+3 = Small decrease<br>
+4 = No effect<br>
+5 = Small increase<br>
+6 = Moderate increase<br>
+7 = Strong increase<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1">[NR05] Scale (fully labeled)</span></p>
+<p class="p2"><span class="s1">Nootropics Motivation</span></p>
+<p class="p2"><span class="s1">"Some nootropics are used to improve motivation and to reduce lethargy. They are meant to increase the drive ..."</span></p>
+<p class="p2"><span class="s1"><b>NR05_01</b> L-Theanine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_02</b> Bacopa Monnieri<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_03</b> Caffeine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_04</b> Curcumin<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_05</b> Ashwagandha<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_06</b> Rhodiola rosea<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_07</b> St John's Wort<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_08</b> Kava<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_09</b> Methylphenidate<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_10</b> Adderall<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_11</b> L-Deprenyl<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_12</b> Tyrosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_13</b> N-Acetyl-L-Tyrosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_14</b> Creatine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_15</b> CDP-Choline<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_16</b> Alpha-GPC<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_17</b> Carnitine / Acetyl-L-Carnitine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_18</b> Omega-3 Supplements<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_19</b> Magnesium<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_20</b> Modafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_21</b> Armodafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_22</b> Adrafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_24</b> Piracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_25</b> Phenylpiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_26</b> Aniracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_27</b> Oxiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_28</b> Pramiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_29</b> Coluracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_30</b> Fasoracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_31</b> Nefiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_32</b> Noopept<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_33</b> Semax<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_34</b> Selank<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_35</b> Doepezil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_36</b> Huperzine A<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_37</b> Ampalex<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_38</b> Tianetpine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_39</b> NSI-189<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_40</b> Melatonin<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_41</b> GABA<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_42</b> 5-HTP<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_43</b> Black Seed Oil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_44</b> Ginseng<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_45</b> Ginkgo biloba<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_46</b> Nicotine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_47</b> Sulbutiamine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_48</b> Uridine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_49</b> Sarcosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_50</b> Sunifiram<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_51</b> BPC-157<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_52</b> Boswellia<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_54</b> Guanfacine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_55</b> DMHA<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_56</b> LSD Microdose<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_57</b> CBD Oil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_58</b> PRL-8-53<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_59</b> Agmatine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_60</b> Selegiline / Deprenyl<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_61</b> Phenibut<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_62</b> Lion's Mane<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR05_63</b> Methylene blue<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">1 = Strong decrease<br>
+2 = Moderate decrease<br>
+3 = Small decrease<br>
+4 = No effect<br>
+5 = Small increase<br>
+6 = Moderate increase<br>
+7 = Strong increase<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1">[NR06] Scale (fully labeled)</span></p>
+<p class="p2"><span class="s1">Nootropics Anxiety</span></p>
+<p class="p2"><span class="s1">"Some nootropics are taken to reduce anxiety and stress. They are thought to make people feel relaxed and calm."</span></p>
+<p class="p2"><span class="s1"><b>NR06_01</b> L-Theanine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_02</b> Bacopa Monnieri<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_03</b> Caffeine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_04</b> Curcumin<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_05</b> Ashwagandha<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_06</b> Rhodiola rosea<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_07</b> St John's Wort<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_08</b> Kava<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_09</b> Methylphenidate<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_10</b> Adderall<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_11</b> L-Deprenyl<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_12</b> Tyrosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_13</b> N-Acetyl-L-Tyrosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_14</b> Creatine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_15</b> CDP-Choline<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_16</b> Alpha-GPC<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_17</b> Carnitine / Acetyl-L-Carnitine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_18</b> Omega-3 Supplements<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_19</b> Magnesium<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_20</b> Modafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_21</b> Armodafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_22</b> Adrafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_24</b> Piracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_25</b> Phenylpiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_26</b> Aniracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_27</b> Oxiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_28</b> Pramiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_29</b> Coluracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_30</b> Fasoracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_31</b> Nefiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_32</b> Noopept<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_33</b> Semax<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_34</b> Selank<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_35</b> Doepezil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_36</b> Huperzine A<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_37</b> Ampalex<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_38</b> Tianetpine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_39</b> NSI-189<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_40</b> Melatonin<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_41</b> GABA<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_42</b> 5-HTP<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_43</b> Black Seed Oil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_44</b> Ginseng<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_45</b> Ginkgo biloba<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_46</b> Nicotine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_47</b> Sulbutiamine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_48</b> Uridine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_49</b> Sarcosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_50</b> Sunifiram<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_51</b> BPC-157<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_52</b> Boswellia<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_54</b> Guanfacine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_55</b> DMHA<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_56</b> LSD Microdose<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_57</b> CBD Oil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_58</b> PRL-8-53<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_59</b> Agmatine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_60</b> Selegiline / Deprenyl<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_61</b> Phenibut<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_62</b> Lion's Mane<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>NR06_63</b> Methylene blue<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">1 = Strong increase<br>
+2 = Moderate increase<br>
+3 = Small increase<br>
+4 = No effect<br>
+5 = Small decrease<br>
+6 = Moderate decrease<br>
+7 = Strong decrease<br>
+-9 = Not answered</span></p>
+<p class="p7"><span class="s1"><b>Section BF: Short Big Five</b></span></p>
+<p class="p2"><span class="s1">[BF01] Scale (fully labeled)</span></p>
+<p class="p2"><span class="s1">BFI</span></p>
+<p class="p2"><span class="s1">"Here are a number of traits that may or may not apply to you. Please rate each statement to indicate the ext..."</span></p>
+<p class="p2"><span class="s1"><b>BF01_01</b> am the life of the party.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_02</b> sympathize with other's feelings.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_03</b> get chores done right away.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_04</b> have frequent mood swings.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_05</b> have a vivid imagination.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_06</b> don't talk a lot.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_07</b> am not interested in other people's problems.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_08</b> often forget to put things back in their proper place.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_09</b> am relaxed most of the time.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_10</b> am not interested in abstract ideas.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_11</b> talk to a lot of different people at parties.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_12</b> feel other's emotions.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_13</b> like order.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_14</b> get upset easily.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_15</b> have difficulty understanding abstract ideas.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_16</b> keep in the background.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_17</b> am not really interested in others.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_18</b> make a mess of things.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_19</b> seldom feel blue.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>BF01_20</b> do not have a good imagination.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">1 = very inaccurate<br>
+2 = moderately inaccurate<br>
+3 = neither inaccurate nor accurate<br>
+4 = moderately accurate<br>
+5 = very accurate<br>
+-9 = Not answered</span></p>
+<p class="p7"><span class="s1"><b>Section ND: Nootropics Dose</b></span></p>
+<p class="p2"><span class="s1">[ND01] Text Input</span></p>
+<p class="p2"><span class="s1">Nootropics dose</span></p>
+<p class="p2"><span class="s1">"What was the dose (in mg) of the nootropics you've taken?"</span></p>
+<p class="p2"><span class="s1"><b>ND01_01</b> L-Theanine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_02</b> Bacopa Monnieri<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_03</b> Caffeine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_04</b> Curcumin<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_05</b> Ashwagandha<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_06</b> Rhodiola rosea<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_07</b> St John's Wort<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_08</b> Kava<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_09</b> Methylphenidate<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_10</b> Adderall<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_11</b> L-Deprenyl<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_12</b> Tyrosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_13</b> N-Acetyl-L-Tyrosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_14</b> Creatine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_15</b> CDP-Choline<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_16</b> Alpha-GPC<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_17</b> Carnitine / Acetyl-L-Carnitine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_18</b> Omega-3 Supplements<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_19</b> Magnesium<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_20</b> Modafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_21</b> Armodafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_22</b> Adrafinil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_24</b> Piracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_25</b> Phenylpiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_26</b> Aniracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_27</b> Oxiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_28</b> Pramiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_29</b> Coluracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_30</b> Fasoracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_31</b> Nefiracetam<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_32</b> Noopept<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_33</b> Semax<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_34</b> Selank<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_35</b> Doepezil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_36</b> Huperzine A<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_37</b> Ampalex<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_38</b> Tianetpine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_39</b> NSI-189<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_40</b> Melatonin<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_41</b> GABA<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_42</b> 5-HTP<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_43</b> Black Seed Oil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_44</b> Ginseng<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_45</b> Ginkgo biloba<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_46</b> Nicotine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_47</b> Sulbutiamine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_48</b> Uridine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_49</b> Sarcosine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_50</b> Sunifiram<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_51</b> BPC-157<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_52</b> Boswellia<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_54</b> Guanfacine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_55</b> DMHA<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_56</b> LSD Microdose<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_57</b> CBD Oil<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_58</b> PRL-8-53<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_59</b> Agmatine<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_60</b> Selegiline / Deprenyl<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_61</b> Phenibut<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_62</b> Lion's Mane<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Free text</span></p>
+<p class="p2"><span class="s1"><b>ND01_01a</b> L-Theanine: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_02a</b> Bacopa Monnieri: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_03a</b> Caffeine: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_04a</b> Curcumin: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_05a</b> Ashwagandha: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_06a</b> Rhodiola rosea: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_07a</b> St John's Wort: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_08a</b> Kava: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_09a</b> Methylphenidate: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_10a</b> Adderall: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_11a</b> L-Deprenyl: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_12a</b> Tyrosine: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_13a</b> N-Acetyl-L-Tyrosine: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_14a</b> Creatine: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_15a</b> CDP-Choline: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_16a</b> Alpha-GPC: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_17a</b> Carnitine / Acetyl-L-Carnitine: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_18a</b> Omega-3 Supplements: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_19a</b> Magnesium: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_20a</b> Modafinil: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_21a</b> Armodafinil: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_22a</b> Adrafinil: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_24a</b> Piracetam: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_25a</b> Phenylpiracetam: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_26a</b> Aniracetam: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_27a</b> Oxiracetam: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_28a</b> Pramiracetam: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_29a</b> Coluracetam: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_30a</b> Fasoracetam: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_31a</b> Nefiracetam: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_32a</b> Noopept: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_33a</b> Semax: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_34a</b> Selank: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_35a</b> Doepezil: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_36a</b> Huperzine A: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_37a</b> Ampalex: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_38a</b> Tianetpine: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_39a</b> NSI-189: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_40a</b> Melatonin: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_41a</b> GABA: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_42a</b> 5-HTP: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_43a</b> Black Seed Oil: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_44a</b> Ginseng: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_45a</b> Ginkgo biloba: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_46a</b> Nicotine: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_47a</b> Sulbutiamine: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_48a</b> Uridine: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_49a</b> Sarcosine: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_50a</b> Sunifiram: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_51a</b> BPC-157: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_52a</b> Boswellia: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_54a</b> Guanfacine: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_55a</b> DMHA: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_56a</b> LSD Microdose: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_57a</b> CBD Oil: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_58a</b> PRL-8-53: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_59a</b> Agmatine: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_60a</b> Selegiline / Deprenyl: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_61a</b> Phenibut: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>ND01_62a</b> Lion's Mane: I don't remember.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">1 = Not checked<br>
+2 = Checked</span></p>
+<p class="p7"><span class="s1"><b>Section SD: Sociodemography</b></span></p>
+<p class="p2"><span class="s1">[SD01] Selection</span></p>
+<p class="p2"><span class="s1">Gender</span></p>
+<p class="p2"><span class="s1">"What is your gender?"</span></p>
+<p class="p2"><span class="s1"><b>SD01</b> Gender<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">1 = female<br>
+2 = male<br>
+3 = other (please specify)<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1"><b>SD01_03</b> other (please specify)<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Free text</span></p>
+<p class="p2"><span class="s1">[SD02] Closed Text</span></p>
+<p class="p2"><span class="s1">Age (direct)</span></p>
+<p class="p2"><span class="s1">"How old are you?"</span></p>
+<p class="p2"><span class="s1"><b>SD02_01</b> I am ... years old<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Free input (integer)</span></p>
+<p class="p2"><span class="s1">[SD03] Dropdown Selection</span></p>
+<p class="p2"><span class="s1">Age (categories, 5 years)</span></p>
+<p class="p2"><span class="s1">"How old are you?"</span></p>
+<p class="p2"><span class="s1"><b>SD03</b> Age (categories, 5 years)</span></p>
+<p class="p2"><span class="s1">1 = younger than 15 years old<br>
+2 = 15 to 19 years old<br>
+3 = 20 to 24 years old<br>
+4 = 25 to 29 years old<br>
+5 = 30 to 34 years old<br>
+6 = 35 to 39 years old<br>
+7 = 40 to 44 years old<br>
+8 = 45 to 49 years old<br>
+9 = 50 to 54 years old<br>
+10 = 55 to 59 years old<br>
+11 = 60 to 64 years old<br>
+12 = 65 years or older<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1">[SD04] Text Input</span></p>
+<p class="p2"><span class="s1">Age (year of birth)</span></p>
+<p class="p2"><span class="s1">"What is your year of birth?"</span></p>
+<p class="p2"><span class="s1"><b>SD04_01</b> Year of birth<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Free text</span></p>
+<p class="p2"><span class="s1">[SD05] Dropdown Selection</span></p>
+<p class="p2"><span class="s1">Gender (to combine)</span></p>
+<p class="p2"><span class="s1">"Finally, we'd like to ask you for some details about yourself."</span></p>
+<p class="p2"><span class="s1"><b>SD05</b> Gender (to combine)</span></p>
+<p class="p2"><span class="s1">1 = female<br>
+2 = male<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1">[SD06] Text Input</span></p>
+<p class="p2"><span class="s1">Age (to combine)</span></p>
+<p class="p2"><span class="s1">"This question is intended to be attached to the question "Gender (to be combined)". Please also see the exam..."</span></p>
+<p class="p2"><span class="s1"><b>SD06_01</b> How old are you? ... years old<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Free input (integer)</span></p>
+<p class="p2"><span class="s1">[SD07] Selection</span></p>
+<p class="p2"><span class="s1">Land (D/A/CH)</span></p>
+<p class="p2"><span class="s1">"Which country are you currently living in?"</span></p>
+<p class="p2"><span class="s1"><b>SD07</b> Land (D/A/CH)<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">1 = Germany<br>
+2 = Austria<br>
+3 = Switzerland<br>
+4 = Other country:<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1"><b>SD07_04</b> Other country<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Free text</span></p>
+<p class="p2"><span class="s1">[SD08] Suggesting Text Input</span></p>
+<p class="p2"><span class="s1">Land (worldwide, in de+en)</span></p>
+<p class="p2"><span class="s1">"Which is the country, you're currently living?"</span></p>
+<p class="p2"><span class="s1"><b>SD08</b> Land (worldwide, in de+en)<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">1001 = Apsny<br>
+4 = Afghanistan<br>
+8 = Albania<br>
+10 = Antarctic<br>
+12 = Algeria<br>
+16 = American Samoa<br>
+20 = Andorra<br>
+24 = Angola<br>
+660 = Anguilla<br>
+28 = Antigua and Barbuda<br>
+32 = Argentina<br>
+51 = Armenia<br>
+533 = Aruba<br>
+36 = Australia<br>
+40 = Austria<br>
+31 = Azerbaijan<br>
+44 = Bahamas<br>
+48 = Bahrain<br>
+50 = Bangladesh<br>
+52 = Barbados<br>
+112 = Belarus<br>
+56 = Belgium<br>
+248 = Ã…land Islands<br>
+84 = Belize<br>
+204 = Benin<br>
+60 = Bermuda<br>
+64 = Bhutan<br>
+68 = Bolivia<br>
+535 = Caribbean Netherlands<br>
+70 = Bosnia and Herzegovina<br>
+72 = Botswana<br>
+76 = Brazil<br>
+74 = Bouvet Islands<br>
+92 = British Virgin Islands<br>
+96 = Brunei<br>
+86 = British Indian Ocean Territory<br>
+100 = Bulgaria<br>
+854 = Burkina Faso<br>
+104 = Burma<br>
+108 = Burundi<br>
+116 = Cambodia<br>
+120 = Cameroons<br>
+124 = Canada<br>
+132 = Cape Verde<br>
+136 = Cayman Islands<br>
+140 = Central African Republic<br>
+148 = Chad<br>
+152 = Chile<br>
+156 = China (People's Republic of China)<br>
+162 = Christmas Island<br>
+166 = Cocos Islands<br>
+170 = Colombia<br>
+174 = Comoros<br>
+178 = Republic of the Congo<br>
+180 = Democratic Republic of the Congo<br>
+184 = Cook Islands<br>
+188 = Costa Rica<br>
+384 = CÃ´te d'Ivoire<br>
+191 = Croatia<br>
+192 = Cuba<br>
+531 = CuraÃ§ao<br>
+196 = Cyprus<br>
+203 = Czech Republic<br>
+208 = Denmark<br>
+262 = Djibouti<br>
+212 = Dominica<br>
+214 = Dominican Republic<br>
+626 = East Timor<br>
+218 = Ecuador<br>
+818 = Egypt<br>
+222 = El Salvador<br>
+226 = Equatorial Guinea<br>
+232 = Eritrea<br>
+233 = Estonia<br>
+231 = Ethiopia<br>
+238 = Falkland Islands<br>
+234 = Faroe Islands<br>
+583 = Federated States of Micronesia<br>
+242 = Fiji<br>
+246 = Finland<br>
+250 = France<br>
+254 = French Guiana<br>
+258 = French Polynesia<br>
+260 = French Southern Territories<br>
+266 = Gabon<br>
+270 = Gambia<br>
+268 = Georgia<br>
+276 = Germany<br>
+288 = Ghana<br>
+292 = Gibraltar<br>
+300 = Greece<br>
+304 = Greenland<br>
+308 = Grenada<br>
+312 = Guadeloupe<br>
+316 = Guam<br>
+320 = Guatemala<br>
+831 = Guernsey<br>
+324 = Guinea<br>
+624 = Guinea-Bissau<br>
+328 = Guyana<br>
+[...]<br>
+-1 = No answer<br>
+-2 = other text response<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1"><b>SD08s</b> Land (worldwide, in de+en) (free text)<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Free text</span></p>
+<p class="p2"><span class="s1">[SD09] Closed Text</span></p>
+<p class="p2"><span class="s1">Ort (PLZ)</span></p>
+<p class="p2"><span class="s1">"What are the first two digits of your postal code?"</span></p>
+<p class="p2"><span class="s1"><b>SD09_01</b> My zip code starts with the digits ... ***<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Free text</span></p>
+<p class="p2"><span class="s1">[SD10] Selection</span></p>
+<p class="p2"><span class="s1">Formal education</span></p>
+<p class="p2"><span class="s1">"What is the highest level of education you have completed?"</span></p>
+<p class="p2"><span class="s1"><b>SD10</b> Formal education</span></p>
+<p class="p2"><span class="s1">1 = Still in school [1]<br>
+2 = Finished school with no qualifications [2]<br>
+3 = Secondary school-leaving certificate/Junior High Diploma [3]<br>
+4 = General Certificate of Secondary Education (GCSEs) [4]<br>
+5 = [5]<br>
+6 = Vocational secondary certification (completion of specialized secondary school/college) [6]<br>
+7 = A-levels/International Baccalaureate, subject-related higher education entrance qualification [7]<br>
+8 = University degree [8]<br>
+9 = Other school-leaving qualification: [9]<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1"><b>SD10_09</b> Other school-leaving qualification<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Free text</span></p>
+<p class="p2"><span class="s1">[SD11] Selection</span></p>
+<p class="p2"><span class="s1">Formal education (simple)</span></p>
+<p class="p2"><span class="s1">"What is your highest educational achievement?"</span></p>
+<p class="p2"><span class="s1"><b>SD11</b> Formal education (simple)</span></p>
+<p class="p2"><span class="s1">1 = Finished school with no qualifications<br>
+9 = Still in school<br>
+3 = Secondary school-leaving certificate/Junior High Diploma<br>
+4 = High school diploma/Intermediate/General Certificate of Secondary Education, secondary school-leaving certificate or equivalent<br>
+5 = Completed apprenticeship<br>
+6 = Vocational baccalaureate diploma, vocational secondary certification<br>
+7 = A-levels/International Baccalaureate/Higher education entrance qualification<br>
+8 = Vocational university/university of applied sciences/university degree<br>
+10 = Other degree:<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1"><b>SD11_10</b> Other degree<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Free text</span></p>
+<p class="p2"><span class="s1">[SD12] Selection</span></p>
+<p class="p2"><span class="s1">Vocational education</span></p>
+<p class="p2"><span class="s1">"What professional qualifications do you have?"</span></p>
+<p class="p2"><span class="s1"><b>SD12</b> Vocational education</span></p>
+<p class="p2"><span class="s1">1 = No professional qualifications<br>
+2 = Vocational training period with diploma<br>
+3 = (Compact) vocational training program/course<br>
+4 = Completed industrial or agricultural apprenticeship<br>
+5 = Completed commercial traineeship<br>
+6 = Internship, practical training<br>
+7 = Specialized vocational qualification<br>
+8 = General vocational qualification<br>
+9 = Master/technical certification or equivalent vocational qualification<br>
+10 = Vocational university/university of applied sciences degree<br>
+11 = University degree<br>
+12 = Other degree:<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1"><b>SD12_12</b> Other degree<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Free text</span></p>
+<p class="p2"><span class="s1">[SD13] Selection</span></p>
+<p class="p2"><span class="s1">Employment</span></p>
+<p class="p2"><span class="s1">"Are you currently employed?"</span></p>
+<p class="p2"><span class="s1"><b>SD13</b> Employment</span></p>
+<p class="p2"><span class="s1">1 = Yes, I am employed.<br>
+2 = No, I am unemployed.<br>
+3 = No, I am retired.<br>
+4 = No, I am a homemaker.<br>
+5 = No, none of the above.<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1">[SD14] Selection</span></p>
+<p class="p2"><span class="s1">Profession</span></p>
+<p class="p2"><span class="s1">"What do you do professionally?"</span></p>
+<p class="p2"><span class="s1"><b>SD14</b> Profession</span></p>
+<p class="p2"><span class="s1">1 = Pupil/in school<br>
+2 = Training/apprenticeship<br>
+3 = University student<br>
+4 = Employee<br>
+5 = Civil servant<br>
+6 = Self-employed<br>
+7 = Unemployed/seeking employment<br>
+8 = Other:<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1"><b>SD14_08</b> Other<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Free text</span></p>
+<p class="p2"><span class="s1">[SD15] Text Input</span></p>
+<p class="p2"><span class="s1">Profession (OPEN)</span></p>
+<p class="p2"><span class="s1">"What are you working?"</span></p>
+<p class="p2"><span class="s1"><b>SD15_01</b> [01]<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Free text</span></p>
+<p class="p2"><span class="s1"><b>SD15_01a</b> [01]: I am still in school or training<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">1 = Not checked<br>
+2 = Checked</span></p>
+<p class="p2"><span class="s1">[SD16] Dropdown Selection</span></p>
+<p class="p2"><span class="s1">Income I</span></p>
+<p class="p2"><span class="s1">"What is your monthly net income?"</span></p>
+<p class="p2"><span class="s1"><b>SD16</b> Income I<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">1 = I do not have a personal income<br>
+2 = less than 250 â‚¬<br>
+3 = 250 â‚¬ up to 500 â‚¬<br>
+4 = 500 â‚¬ up to 1000 â‚¬<br>
+5 = 1000 â‚¬ up to 1500 â‚¬<br>
+6 = 1500 â‚¬ up to 2000 â‚¬<br>
+7 = 2000 â‚¬ up to 2500 â‚¬<br>
+8 = 2500 â‚¬ up to 3000 â‚¬<br>
+9 = 3000 â‚¬ up to 3500 â‚¬<br>
+10 = 3500 â‚¬ up to 4000 â‚¬<br>
+11 = 4000 â‚¬ or more<br>
+12 = I do not wish to answer<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1">[SD17] Dropdown Selection</span></p>
+<p class="p2"><span class="s1">Income II</span></p>
+<p class="p2"><span class="s1">"What is your monthly net income?"</span></p>
+<p class="p2"><span class="s1"><b>SD17</b> Income II<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">1 = less than 250 â‚¬<br>
+2 = 250 â‚¬ up to 500 â‚¬<br>
+3 = 500 â‚¬ up to 1000 â‚¬<br>
+4 = 1000 â‚¬ up to 1500 â‚¬<br>
+5 = 1500 â‚¬ up to 2000 â‚¬<br>
+6 = 2000 â‚¬ up to 3000 â‚¬<br>
+7 = 3000 â‚¬ up to 4000 â‚¬<br>
+8 = 4000 â‚¬ up to 5000 â‚¬<br>
+9 = 5000 â‚¬ or more<br>
+10 = I do not wish to answer<br>
+-9 = Not answered</span></p>
+<p class="p2"><span class="s1">[SD18] Text Input</span></p>
+<p class="p2"><span class="s1">Comments (open)</span></p>
+<p class="p2"><span class="s1">"Would you like to comment this questionnaire, or would you like to add information for us to better understand..."</span></p>
+<p class="p2"><span class="s1"><b>SD18_01</b> [01]<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Free text</span></p>
+</body>
+</html>
